@@ -22,14 +22,12 @@ A ferramenta foi desenvolvida em **Python (Jupyter Notebook)** e automatiza o pr
 ---
 
 ## 📂 Estrutura do Projeto
+```
 📦 Gerador-de-Arquivo-TXT-para-SIMPROQUI-PF
 ┣ 📜 GERARTXT.xlsx # Modelo de entrada (planilha base)
 ┣ 📜 Geração de TXT.ipynb # Notebook principal
 ┣ 📜 README.md # Documentação do projeto
-
-yaml
-Copiar
-Editar
+```
 
 ---
 
@@ -42,30 +40,35 @@ Antes de rodar o projeto, você precisa ter instalado:
 ### Instalação das dependências:
 ```bash
 pip install pandas openpyxl
-▶️ Como Usar
+```
+
+## ▶️ Como Usar
 Clone o repositório:
 
-bash
-Copiar
-Editar
+```bash
 git clone https://github.com/AlandersonBatista/Gerador-de-Arquivo-TXT-para-SIMPROQUI-PF.git
+```
 Abra o Jupyter Notebook:
 
-bash
-Copiar
-Editar
-jupyter notebook
+```bash
 Execute o arquivo Geração de TXT.ipynb.
+```
 
-Carregue a planilha GERARTXT.xlsx com seus dados.
+Carregue a planilha com seus dados.
+```bash
+GERARTXT.xlsx 
+```
 
 O sistema irá gerar o arquivo .txt pronto para envio ao SIMPROQUI.
 
-📌 Exemplo de Entrada (Excel)
+## 📌 Exemplo de Entrada (Excel)
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/7127a4e3-a28f-4b1e-b8c6-1b60ac00fb1b" />
-📌 Exemplo de Saída (TXT)
+
+## 📌 Exemplo de Saída (TXT)
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/38c6222d-2c67-413f-83e5-67d9e83e4d21" />
-🤝 Contribuição
+
+
+## 🤝 Contribuição
 Contribuições são bem-vindas!
 Para sugerir melhorias:
 
@@ -79,7 +82,7 @@ Faça um push (git push origin minha-feature)
 
 Abra um Pull Request
 
-📜 Licença
+## 📜 Licença
 Este projeto está sob a licença MIT.
 Sinta-se livre para usar e modificar conforme necessário.
 
